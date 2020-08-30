@@ -1,0 +1,75 @@
+.CalcApp {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #311;
+  border: 3px solid #888;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 48px 92px 48px 92px;
+  /* border-radius: 28px;
+  border-top-left-radius: 72px; */
+  color: #eaeaea;
+  width: 414px;
+  height: 756px;
+}
+.Time {
+  margin: 10px 15px;
+  height: 28px;
+  width: 350px;
+  text-align: left;
+}
+.Display {
+  align-self: flex-end;
+  /* background: red; */
+  text-align: right;
+  padding-right: 18px;
+  padding-left: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  box-sizing: border-box;
+  height: 210px;
+  font-size: 33px;
+}
+.Keyboard {
+  margin-top: 10px;
+  padding: 5px;
+  /* background: red; */
+  box-sizing: border-box;
+}
+.Keyboard button {
+  box-sizing: border-box;
+  margin: 6px 9px;
+  font-size: 20px;
+  width: 74px;
+  height: 74px;
+  border-radius: 30% 50% 35% 50%;
+  outline: 0;
+  border: 0;
+  color: #eaeaea;
+  font-size: 30px;
+  transition: transform 200ms ease-in;
+}
+
+.Keyboard button:hover {
+  /* box-shadow: 1px 2px #533; */
+  border: 3px solid #533;
+  /* transform: rotate(5deg); */
+}
+.Keyboard button:active {
+  border: 1px solid #544;
+  color: black;
+  transform: rotate(8deg);
+}
+
+.bottom {
+  margin-top: 9px;
+  height: 4px;
+  width: 224px;
+  background: #ddd;
+  border-radius: 2px;
+}
