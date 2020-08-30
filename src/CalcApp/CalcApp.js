@@ -16,6 +16,9 @@ const CalcApp = props => {
         <Keyboard />
       </DisplayContextProvider>
       <div className="bottom"></div>
+      <div className="signature">
+        Created by: <i>Ljiljan Maksimovic</i>
+      </div>
     </div>
   );
 };
